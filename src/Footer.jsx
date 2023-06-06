@@ -23,7 +23,7 @@ function Footer() {
             </div>
           </div>
           <div>
-            <p>hello@dweep.io </p>
+            <p>hello@dweep.io</p>
           </div>
         </div>
       </div>
