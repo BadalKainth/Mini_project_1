@@ -1,8 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import image from "../assets/Image.png";
 import "./Screen1.css";
 
 function Screen1() {
+  const navigate = useNavigate();
+
+  function handleSubmit(e) {
+    e.preventDefault();
+
+    navigate("/thank-you");
+  }
+
   return (
     <>
       <main>
@@ -15,16 +24,16 @@ function Screen1() {
               inbox.
             </p>
             <strong className="strong-text">Show me how it looks..</strong>
-            <div className="email">
+            <form className="register-form" onSubmit={handleSubmit}>
               <input
                 className="email-input"
                 type="text"
                 placeholder="Your e-mail address"
               />
-              <a href="./Screen2" className="register-btn">
+              <button type="submit" className="register-btn">
                 Register Now
-              </a>
-            </div>
+              </button>
+            </form>
           </div>
           <div className="container-image">
             <img src={image} alt="Image1" />

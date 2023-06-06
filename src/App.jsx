@@ -13,7 +13,7 @@ function App() {
           }}
         >
           <Route path="/" element={<Screen1 />} />
-          <Route path="/screen2" element={<Screen2 />} />
+          <Route path="/thank-you" element={<Screen2 />} />
         </Routes>
       </div>
     </>
