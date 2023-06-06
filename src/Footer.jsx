@@ -14,17 +14,14 @@ function Footer() {
           <p>Contribute to Dweep</p>
         </div>
         <div className="fav-icons">
-          <div>
-            <p>Dweep.io</p>
-            <p>Made with love in India</p>
-            <div className="logos">
-              <img id="logo" src={Logo1} alt="InstagramLogo" />
-              <img id="logo" src={Logo2} alt="LinkedinLogo" />
-            </div>
+          <p>Dweep.io</p>
+          <p>Made with love in India</p>
+          <div className="logos">
+            <img id="logo" src={Logo1} alt="InstagramLogo" />
+            <img id="logo" src={Logo2} alt="LinkedinLogo" />
           </div>
-          <div>
-            <p>hello@dweep.io</p>
-          </div>
+          <br />
+          <p>hello@dweep.io</p>
         </div>
       </div>
     </footer>

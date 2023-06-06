@@ -27,10 +27,11 @@ function Screen1() {
             <form className="register-form" onSubmit={handleSubmit}>
               <input
                 className="email-input"
-                type="text"
+                type="email"
+                required
                 placeholder="Your e-mail address"
               />
-              <button type="submit" className="register-btn">
+              <button role="submit" className="register-btn">
                 Register Now
               </button>
             </form>
